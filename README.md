@@ -7,4 +7,4 @@ a javafx application clone of the ![](fuelpass.gov.lk)
 
 ### License
 Copyright &copy: 2022 DEP9. All Rights Reserved.
-this project is licensed under the[MIT License](LICENSE.txt).
+this project is licensed under the [MIT License](LICENSE.txt).
