@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pneAdminLoginForm" prefHeight="382.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminLoginFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="132.0" layoutY="55.0" prefHeight="58.0" prefWidth="476.0" text="Admin Login Form" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="DejaVu Serif Bold" size="27.0" />
+         </font>
+      </Label>
+      <FlowPane alignment="CENTER" layoutX="155.0" layoutY="156.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <PasswordField fx:id="txtPassword" alignment="CENTER" onAction="#txtPasswordOnAction" prefHeight="26.0" prefWidth="234.0" promptText="Enter Password" />
+         </children>
+      </FlowPane>
+      <FlowPane alignment="CENTER" layoutX="208.0" layoutY="236.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="165.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/admin-removebg-preview-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="190.0" prefHeight="18.0" prefWidth="519.0" text="Enter Admin Password" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Montserrat Medium" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
